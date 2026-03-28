@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Portfólio Guilherme Oliveira e Marcos de Jesus</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+body {
+    background-color: #292c34; 
+    color: #ffffff;
+    margin: 0;
+    display: flex;
+    flex-direction: column; 
+}
+
+.topo {
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.moldfoto {
+    position: relative;
+    width: 150px; 
+    height: 150px;
+    margin: 0 auto 25px;
+}
+
+.foto{
+    width: 100%;
+    height: 100%;  
+    border-radius: 500px;
+    border: 3px solid #e94d5f;
+    padding: 4px;
+    display: block;
+}
+
+.saudacao {
+    color: rgb(189, 187, 187);
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.nomedestacado {
+    color: #e94d5f;
+}
+
+.titulo {
+    font-size:60px;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.bio {
+    color: rgb(189, 187, 187);
+    margin-bottom: 45px;
+    font-size: 18px;
+    width: 700px;
+    text-align: center;
+}
+
+.botoes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.linguagem {
+    background-color: #1e2230;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-size: 0.9rem;
+    border: 1px solid #2d334a;
+}
+
+.seta{
+    margin-top: 60px;
+    font-size: 20px;
+    color: rgb(194, 173, 173);
+}
+
+.trabalhos {
+    padding: 10px 20px;
+    text-align: center;
+    display: block;
+}
+
+.trabalhos h2{
+    color: white;
+}
+
+.subtitulo { 
+    color: #e94d5f;  
+    margin-bottom: 10px;
+    font-size: 30px; 
+}
+
+.secao { 
+    font-size: 2rem; 
+    margin-bottom: 60px; 
+}
+
+.grade{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 30px;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.cartao {
+    background: #1e2230;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: left;
+}
+
+.moldura {
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.moldura img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.viagem { background-color: #ff5e71; }
+.projeto { background-color: #2b7fff; }
+.receita { background-color: #ffc107; }
+.zingen{ background-color: #ff9800; }
+.refund { background-color: #4caf50; }
+.turismo { background-color: #f44336; }
+
+.cartao h3 { 
+    font-size: 20px; 
+    margin-bottom: 10px; 
+}
+
+.cartao p { 
+    color: white; 
+    font-size: 15px; 
+}
+
+.cartao h3,p{
+    color: white;
+
+}
+
+.servicos {
+    width: 90%; 
+    max-width: 1100px; 
+    margin: 30px auto; 
+    padding: 60px 40px; 
+    background-color: #0d0e11;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gradeservicos {
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 40px;
+    width: 100%; 
+    display: flex;
+}
+
+.cartaoservico {
+    background: #161a23;
+    border: 1px solid #2d334a;
+    border-radius: 12px;
+    padding: 40px 30px;
+    width: 320px;
+    text-align: left;
+}
+
+.cartaoservico h3 {
+    font-size: 25px;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.cartaoservico p {
+    color: #94a3b8;
+    font-size: 20px;
+}
+
+.servicos p{
+    font-size: 20px;
+}
+
+.servicos h2{
+    font-size: 30px;
+}
+
+.contato {
+    width: 90%; 
+    max-width: 1100px; 
+    margin: -50px auto; 
+    padding: 60px 40px; 
+    background-color: #292c34;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.lista{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 16px;
+    max-width: 500px; 
+    margin: 40px auto 0;
+}
+
+.rede {
+    background-color: #1e2230;
+    border: 1px solid #2d334a;
+    border-radius: 8px;
+    padding: 18px 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    color: #ffffff;
+    width: 100%;
+    transition: 0.3s;
+}
+
+.contato p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+
+.contato h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+
+}
+
+.lista div{
+    color: white;
+}
+
+
+    </style>
+</head>
+<body>
+
+    <div class="principal">
+
+        <div class="topo">
+
+            <div class="moldfoto">
+                <img class="foto" src="GuilhermeMarcos.png">
+            </div>
+            <p class="saudacao">Hello World! Nos chamamos <span class="nomedestacado">Guilherme Oliveira e Marcos de Jesus</span> e somos</p>
+            <h1 class="titulo">Desenvolvedores Fullstack</h1>
+            <p class="bio">Transformamos necessidades em aplicações reais, evolventes e funcionais. Desenvolvemos sistemas através da minha paixão pela tecnologia, contribuindo com soluções inovadoras e eficazes para desafios complexos.</p>
+            
+            <div class="botoes">
+                <span class="linguagem">GitHub</span>
+                <span class="linguagem">HTML</span>
+                <span class="linguagem">CSS</span>
+                <span class="linguagem">JavaScript</span>
+                <span class="linguagem">React</span>
+                <span class="linguagem">Node.js</span>
+            </div>
+
+            <div class="seta">
+                <span><img src="caret-double-down.svg"></span>
+            </div> 
+        </div>
+        <div class="trabalhos">
+            <p class="subtitulo">Nosso trabalho</p>
+            <h2 class="secao">Veja os projetos em destaque</h2>
+            <div class="grade">
+            <div class="cartao">
+                <div class="moldura viagem">
+                    <img src="viagens.jpg" >
+                </div>
+                <h3>Página de viagens</h3>
+                <p>Rede social onde as pessoas mostram os registros de suas viagens pelo mundo.</p>
+            </div>
+
+            <div class="cartao">
+                <div class="moldura projeto">
+                    <img src="projetos.jpg" >
+                </div>
+                <h3>Tech News</h3>
+                <p>Homepage de um portal de notícias sobre a área de tecnologia.</p>
+            </div>
+
+            <div class="cartao">
+                <div class="moldura receita">
+                    <img src="receitas.jpg" >
+                </div>
+                <h3>Página de receita</h3>
+                <p>Página com o passo a passo de uma receita para cupcakes.</p>
+            </div>
+
+            <div class="cartao">
+                <div class="moldura zingen">
+                    <img src="zingen.webp" >
+                </div>
+                <h3>Zingen</h3>
+                <p>Landing Page completa e responsiva de um aplicativo de Karaokê.</p>
+            </div>
+
+            <div class="cartao">
+                <div class="moldura refund">
+                    <img src="refund.jpg" >
+                </div>
+                <h3>Refund</h3>
+                <p>Um sistema para pedido e acompanhamento de reembolso.</p>
+            </div>
+
+            <div class="cartao">
+                <div class="moldura turismo">
+                    <img src="turismo.jpg">
+                </div>
+                <h3>Página de turismo</h3>
+                <p>Página com as principais informações para quem quer viajar para Busan.</p>
+            </div>
+        </div>
+    </div>
+    <div class="servicos">
+        <p>Nososs serviços</p>
+        <h2>Como podemos ajudar o seu negócio</h2>
+
+        <div class="gradeservicos">
+            <div class="cartaoservico">
+                <h3>Websites e Aplicativos</h3>
+                <p>Desenvolvimento de interfaces</p>
+            </div>
+
+            <div class="cartaoservico">
+                <h3>API e banco de dados</h3>
+                <p>Criação de serviços do sistema</p>
+            </div>
+
+            <div class="cartaoservico">
+                <h3>DevOps</h3>
+                <p>Gestão e infraestrutura da aplicação</p>
+            </div>
+        </div>
+    </div>
+    <div class="contato">
+        <p>Contato</p>
+        <h2>Gostou do nosso trabalho?</h2>
+        <p>Entre em contato ou acompanhe as nossas redes sociais!</p>
+
+    <div class="lista">
+        <a href="#" class="rede">
+            <span>Linkedin</span>
+            <span><img src="arrow-square-out.svg"></span>
+        </a>
+        <a href="#" class="rede">
+            <span>Instagram</span>
+            <span><img src="arrow-square-out.svg"></span>
+        </a>
+        <a href="#" class="rede">
+            <span>GitHub</span>
+            <span><img src="arrow-square-out.svg"></span>
+        </a>
+        <a href="#" class="rede">
+            <span>E-mail</span>
+            <span><img src="arrow-square-out.svg"></span>
+        </a>
+    </div>
+</div>
+</div>
+
+</body>
+</html>
+   
